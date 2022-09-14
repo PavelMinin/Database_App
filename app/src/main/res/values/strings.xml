@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">Database App</string>
-    <string name="characters">Characters</string>
-    <string name="edit">Edit</string>
-    <string name="actor_name">Actor Name</string>
-    <string name="character_name">Character Name</string>
-    <string name="add">add</string>
-    <string name="delete">delete</string>
 </resources>
