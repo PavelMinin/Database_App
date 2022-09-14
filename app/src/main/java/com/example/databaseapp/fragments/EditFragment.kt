@@ -38,15 +38,8 @@ class EditFragment : Fragment() {
         showResult()
 
         with(binding) {
-
-            buttonAdd.setOnClickListener {
-                addData()
-            }
-
-            buttonEdit.setOnClickListener {
-                editData()
-            }
-
+            buttonAdd.setOnClickListener { addData() }
+            buttonEdit.setOnClickListener { editData() }
             buttonDelete.setOnClickListener { deleteData() }
         }
     }
