@@ -13,8 +13,8 @@ interface RoomCharacterDao {
     @Query("SELECT * FROM roomcharacter WHERE name LIKE (:name)")
     fun loadByName(name: String): RoomCharacter
 
-    @Query("SELECT * FROM roomcharacter WHERE actor LIKE (:actor)")
-    fun loadByActor(actor: String): RoomCharacter
+//    @Query("SELECT * FROM roomcharacter WHERE actor LIKE (:actor)")
+//    fun loadByActor(actor: String): RoomCharacter
 
     @Insert
     fun insertAll(vararg characters: RoomCharacter)

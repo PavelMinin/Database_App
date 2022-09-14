@@ -12,4 +12,10 @@ data class RoomCharacter(
     val name: String,
     @ColumnInfo(name = "actor")
     val actor: String
-)
+
+
+) {
+    override fun toString(): String {
+        return "ID: $id, name: $name, actor: $actor"
+    }
+}
